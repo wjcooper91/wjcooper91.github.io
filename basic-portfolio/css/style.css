@@ -1,0 +1,118 @@
+body {
+    background-color:#fff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+  border:1px solid #ddd;
+  float: left;
+  margin-right:15px;
+  margin-bottom:15px;
+}
+
+header {
+  width:960px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-top: 10px;
+}
+
+.box {
+  display:flex;
+  justify-content: center;
+  border-bottom:2px solid #ddd;
+}
+
+content {
+  margin:5% 20%;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  border:2px solid #ddd;
+  background-color:#fff;
+  padding:20px 15px;
+}
+
+.aboutme {
+  text-align:left;
+  width:100%;
+  color:#4aaaa5;
+  font-weight:900;
+  font-size:26px;
+  border-bottom:3px solid #ddd;
+  padding-bottom:15px;
+}
+
+footer {
+  background-color:#666666;
+  border-top:#4aaaa5 solid 5px;
+  display: inline-flex;
+  justify-content: center;
+  width:100%;
+}
+
+.copyright {
+  color:#bbb;
+  font-size:13px;
+  padding:40px 5px 5px 5px;
+}
+
+a {
+  text-decoration:none;
+  color: inherit;
+}
+
+.container {
+  width:100%;
+  display:flex;
+  flex-direction:column;
+}
+
+.name {
+  padding:30px;
+  background-color: #4aaaa5;
+  color:#fff;
+  font-size:20px;
+}
+
+.nav {
+  display:inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #777777;
+  font-size:16px;
+  width:25%;
+}
+
+.about {
+  border-right:1px solid #aaa;
+  padding: 0 10px;
+}
+
+.portfolio {
+  border-right:1px solid #aaa;
+  padding: 0 10px;
+}
+
+.contact {
+  padding: 0 10px;
+}
+
+.background {
+  background: url(https://lh3.googleusercontent.com/RSnI8x5V0hCRDH17JfaZqUgoSlpSH9te1VX0dub8HMxwvlb1rgcuMioJvie1qNq9Poyj2VifP6w0FVAxJ2RewFm1nzMmXUDwpdRsCaB6vlDp0uxkrvZSeaNrkQjTINuMGfbBldtVHu3rqRZZXsqJ04rtDGU0j2JVLX0mRds8N04dy4qqpIvP_iuA-WVV4MmBzXQLy3jf38aQBWb3IHhB0Csepn3t7Ox_JpXoBvlR0nADlcQbDev459vaU42caR-S9dIuTtIWRgJepN1SsoQE2Epct3RjWziWoQqlZzzpx8fH06zmLhnp8TSkYQVqae_jAChE1hq7v8Fi0MIvniFxpOOU1XwjvAkBiSw4qLtimblcPoq_SZh1pdcTdcio_s-URWdFnU0TNrzfuDj31N_rw2-3w0az-1fbuXagXBI376ObneL6J_GUWt1GGx9vFG5flXoHvZvzUXY8buK37_IGQOujwerBJfjDUWL9RCxN5m78P8JPVxXtwc0NQ8OWSnbuz6H30mPMSH1YOku8yFy__PXIGFMPDa4MRZZtJM9WVIA0cG52CIRU5OmTotJra-kOvYpNVrQHN-c3avSv-IP0oIR-d42IrBlMuXqHOa4=w1290-h968-no) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bio {
+  padding:30px 0;
+}
+
+.info {
+  padding-right: 20px;
+}
+
+
