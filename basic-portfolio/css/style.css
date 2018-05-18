@@ -185,6 +185,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #fff;
   padding: 20px;
+  width:100%;
 }
 
 .col-25 {
