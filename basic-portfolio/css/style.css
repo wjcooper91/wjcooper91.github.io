@@ -3,7 +3,11 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-img {
+.nav a:hover {
+  text-decoration:underline;
+}
+
+.bio img {
   border:1px solid #ddd;
   float: left;
   margin-right:15px;
@@ -76,6 +80,10 @@ a {
   font-size:20px;
 }
 
+button:hover {
+  opacity:.8;
+}
+
 .nav {
   display:inline-flex;
   justify-content: flex-end;
@@ -115,4 +123,51 @@ a {
   padding-right: 20px;
 }
 
+/* --  Portfolio -- */
 
+.work {
+ display:flex;
+ flex-direction: row;
+ align-items: flex-start;
+flex-wrap: wrap;
+padding-right:200px;
+}
+
+.work img {
+  height:150px;
+  width:150px;
+  border:2px solid #ddd;
+  margin:20px;
+}
+
+/* -- Contact Form -- */
+
+.forms {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.submit {
+  background-color: #4aaaa5;
+  color:#fff;
+  padding:5px 20px;
+  font-size:18px;
+  font-weight:500;
+}
+
+.submit:hover{
+  opacity: .8;
+}
+
+.message {
+  width:100%;
+  height: 100px;
+}
+
+.email{
+  width:100%;
+}
+
+.first-name {
+  width: 100%;
+}
