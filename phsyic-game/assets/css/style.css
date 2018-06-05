@@ -1,0 +1,88 @@
+img {
+    width: 325px;
+    height:579px;
+   }
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+}
+
+.background {
+  background-image: url(/Users/williamcooper/workspace/homework/03/Psychic-Game/assets/images/sand_dunes.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#ccc;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.guess {
+    text-align:center;
+    color:#7c303f;
+    font-size:6vw;
+    font-weight:800;
+    padding:10px 5px;
+    text-shadow: 5px 2px #807443;
+    font-family: 'acme', open sans,sans-serif;
+}
+
+.h2 {
+    font-size:2.8vw;
+    background-image: url(/Users/williamcooper/workspace/homework/03/Psychic-Game/assets/images/header-banner.jpg);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding:20px 0;
+  color:#fff;
+}
+
+
+
+.space-between {
+    margin:0 10vw;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    font-family: open sans,sans-serif;
+    color:#7c303f;
+    text-align:center;
+    font-weight:600;
+    font-size:32px;
+    text-shadow: 5px 2px #807443;
+}
+
+
+.zoltar-col {
+    padding:0 15px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin:25px 0;
+}
+
+.guess-txt {
+    text-align:center;
+    font-size:24px;
+}
+
+@media only screen and (max-width: 950px) {
+    .column {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .zoltar-col {
+        display:flex;
+        justify-content:center;
+    }
+}
