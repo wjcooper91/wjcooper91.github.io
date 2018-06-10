@@ -18,7 +18,7 @@ var loss = 0;
 // We begin by expanding our array to include four options.
 var numberOptions = [crystalnum1, crystalnum2, crystalnum3, crystalnum4];
 
-var images = ["wjcooper91.github.io/runequest/assets/images/rune1.png", "wjcooper91.github.io/runequest/assets/images/rune2.png", "wjcooper91.github.io/runequest/assets/images/rune3.png", "wjcooper91.github.io/runequest/assets/images/rune4.png"]
+var images = ["https://wjcooper91.github.io/runequest/assets/images/rune1.png", "https://wjcooper91.github.io/runequest/assets/images/rune2.png", "https://wjcooper91.github.io/runequest/assets/images/rune3.png", "https://wjcooper91.github.io/runequest/assets/images/rune4.png"]
 
 // Next we create a for loop to create crystals for every numberOption.
 for (var i = 0; i < numberOptions.length; i++) {
