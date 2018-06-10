@@ -1,6 +1,6 @@
 body {
     color:#fff;
-    background-image: url(https://wjcooper91.github.io/runequest/assets/images/bg.jpg);
+    background-image: url(/Users/williamcooper/workspace/homework/04/assets/images/bg.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +33,14 @@ h2 {
 .game-container {
     display:flex;
     flex-direction:column;
-    margin:15% 5%;
+    margin:10% 5%;
+}
+
+#crystals {
+    margin-bottom:30px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .scoreboard-container {
@@ -67,14 +74,25 @@ h2 {
     margin:0 20px;
 }
 
+.total-score {
+    text-align:center;
+}
+
 @media only screen and (max-width: 950px) {
     .scoreboard-container {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 }
-    h1 {
-        font-size:34px;
-    }
 
+}
+
+@media only screen and (max-width: 600px) {
+h1 {
+    font-size:30px;
+}
+
+.number-to-reach {
+    padding:20px;
+}
 }
