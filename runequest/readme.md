@@ -1,0 +1,1 @@
+Runequest is a guessing game. Each Rune is assigned a random hidden value. The goal is to reach the random target number. Guess over the target number and the game resets and the round is counted as a loss. Reach the target value and the game counts that round as a win.
