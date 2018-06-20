@@ -74,12 +74,18 @@ crystals.on("click", ".crystal-image", function() {
   function genisis(){
   targetNumber = Math.floor(Math.random() * ((120-19)+1) + 19);
   $("#number-to-guess").text(targetNumber);
+  var crystalnum1 = Math.floor(Math.random() * ((12-1)+1) + 1);
+var crystalnum2 = Math.floor(Math.random() * ((12-1)+1) + 1);
+var crystalnum3 = Math.floor(Math.random() * ((12-1)+1) + 1);
+var crystalnum4 = Math.floor(Math.random() * ((12-1)+1) + 1);
+var crystals = $("#crystals");
 }
 
   function reset(){
       $("#score").empty();
       counter = 0;
       targetNumber = [];
+      
       genisis();
   }
 
