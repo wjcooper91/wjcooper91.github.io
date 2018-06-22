@@ -1,7 +1,5 @@
     $(document).ready(function() {
 
-    var q1 = "C";
-    var q2 = "B";
     var correctCounter = 0;
     var incorrectCounter = 0;
     var unansweredCounter = 0;
