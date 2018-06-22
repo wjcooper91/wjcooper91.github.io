@@ -1,5 +1,7 @@
     $(document).ready(function() {
 
+    var q1 = "C";
+    var q2 = "B";
     var correctCounter = 0;
     var incorrectCounter = 0;
     var unansweredCounter = 0;
@@ -16,7 +18,7 @@
             var counter = 31;
 
             setInterval(function() {
-                counter--;s
+                counter--;
                 if (counter >= 0) {
                     span = document.getElementById("timer");
                     span.innerHTML = counter;
@@ -67,9 +69,3 @@
     
 
 });
-radio = $('input:radio[name=priority]:checked').val();
-
-// if radio hv checked
-if(radio !== ""){
- // do something
-}
