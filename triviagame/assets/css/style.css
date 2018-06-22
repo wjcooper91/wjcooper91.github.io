@@ -1,8 +1,13 @@
+@font-face {
+  font-family: BTTF;
+  src: url('/Users/williamcooper/workspace/homework/wjcooper91.github.io/triviagame/assets/fonts/BTTF.ttf')
+  }
+
 
 body {
   display:flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   width:100%;
   background-image: url('https://wjcooper91.github.io/triviagame/assets/images/bg.jpg');
     -webkit-background-size: cover;
@@ -10,9 +15,32 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color:#ccc;
+    background-color:#fff;
     background-position: center;
     background-attachment: fixed;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  color:#fff;
+  font-weight:900;
+  font-family: 'BTTF', Georgia, Arial, sans-serif;
+  padding:5% 5px;
+  text-align:center;
+  text-transform:lowercase;
+  text-shadow:0 0 8px orangered;
+  font-size:60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display:flex;
+  justify-content: center;
 }
 
 .button {
@@ -23,6 +51,8 @@ body {
   font-size:22px;
   font-weight:800;
   width:20%;
+  display:flex;
+  justify-content: center;
 }
 
 #done {
@@ -36,6 +66,17 @@ body {
   width:100%;
 }
 
-.json {
-  color:#000;
+.quiz {
+  color:#fff;
+  font-size:22px;
+}
+
+.results {
+  color:#fff;
+  font-size:30px;
+}
+
+#timer {
+  font-family: 'BTTF', Georgia, Arial, sans-serif;
+  font-size:34px;
 }

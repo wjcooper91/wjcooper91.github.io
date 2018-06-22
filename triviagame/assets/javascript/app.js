@@ -15,7 +15,7 @@
         $(".quiz").show();
 
         (function() {
-            var counter = 8;
+            var counter = 31;
 
             setInterval(function() {
                 counter--;
