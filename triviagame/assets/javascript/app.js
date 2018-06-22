@@ -18,7 +18,7 @@
             var counter = 31;
 
             setInterval(function() {
-                counter--;
+                counter--;s
                 if (counter >= 0) {
                     span = document.getElementById("timer");
                     span.innerHTML = counter;
