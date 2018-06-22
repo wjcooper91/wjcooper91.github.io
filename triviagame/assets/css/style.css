@@ -26,11 +26,15 @@ h1 {
   color:#fff;
   font-weight:900;
   font-family: 'BTTF', Georgia, Arial, sans-serif;
-  padding:5% 5px;
+  padding:5% 5px 0 5px;
   text-align:center;
   text-transform:lowercase;
   text-shadow:0 0 8px orangered;
   font-size:60px;
+}
+
+h3 {
+  padding-top:15px;
 }
 
 .container {
@@ -79,4 +83,11 @@ h1 {
 #timer {
   font-family: 'BTTF', Georgia, Arial, sans-serif;
   font-size:34px;
+}
+
+#quiz {
+  font-size:30px;
+  font-weight:600;
+  color:orangered;
+  text-shadow:0 0 8px #777;
 }
