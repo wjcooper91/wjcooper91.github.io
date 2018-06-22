@@ -4,6 +4,15 @@ body {
   flex-direction: column;
   align-items: center;
   width:100%;
+  background-image: url('https://wjcooper91.github.io/triviagame/assets/images/bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#ccc;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .button {

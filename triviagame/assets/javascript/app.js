@@ -1,11 +1,4 @@
-//create button
-//on clicking the button, a time starts and questions are displayed
-//make selections on bubble quiz, can only provide 1 answer per question
-//when timer expires, results are displayed ( correct answers, incorrect answers, unanswered)
-//OR click done button and results are displayed as described above.
-
-    
-$(document).ready(function() {
+    $(document).ready(function() {
 
     var q1 = "C";
     var q2 = "B";
