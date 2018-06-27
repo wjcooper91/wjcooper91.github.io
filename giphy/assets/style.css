@@ -1,0 +1,47 @@
+@font-face {
+    font-family: GOT;
+    src: url('/Users/williamcooper/workspace/homework/06/assets/GOT.ttf')
+    }
+
+body {
+    font-family: 'GOT', arial, helvetica, sans-serif;
+    font-weight:900;
+    background-color:#ebebeb;
+    width:100%;
+    font-size:40px;
+    color:#898a8d;
+    text-shadow: 2px 2px #ebebeb;
+    display:flex;
+    justify-content:center;
+    background: url(/Users/williamcooper/workspace/homework/06/assets/images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+button {
+    padding:20px;
+    font-weight:400;
+    font-size:18px;
+    margin:0 20px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5% 0 0 0;
+    text-transform: uppercase;
+    font-weight:600;
+}
+
+.show-buttons {
+    display:flex;
+    justify-content:center;
+}
