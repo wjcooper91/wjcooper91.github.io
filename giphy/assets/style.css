@@ -1,6 +1,6 @@
 @font-face {
     font-family: GOT;
-    src: url('/Users/williamcooper/workspace/homework/06/assets/GOT.ttf')
+    src: url('https://wjcooper91.github.io/giphy/assets/GOT.ttf')
     }
 
 body {
@@ -13,7 +13,7 @@ body {
     text-shadow: 2px 2px #ebebeb;
     display:flex;
     justify-content:center;
-    background: url(/Users/williamcooper/workspace/homework/06/assets/images/bg.jpg) no-repeat center center fixed; 
+    background: url(https://wjcooper91.github.io/giphy/assets/images/bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
