@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Train Scheduler</title>
+    <link rel="stylesheet" href="/Users/williamcooper/workspace/GTATL201805FSF2-Class-Repository-FSF/Class-Content/07-firebase/01-Activities/17-TimeSheet/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron"></div>
+
+        <table class="table table-bordered table-hover" id="full-schedule">
+            <thead>
+                <tr>
+                    <th scope="col">Train</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Frequency (min)</th>
+                    <th>Next Arrival</th>
+                    <th>Minutes Away</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="form">
+            <form>
+                <div class="form-group row">
+                    <label for="train-input" class="col-2 col-form-label">Train</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" value="" id="train-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="destination-input" class="col-2 col-form-label">Destination</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" value="" id="destination-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="first-train" class="col-2 col-form-label">First Train Time (HH:mm - Military Time)</label>
+                    <input class="form-control" id="first-train" type="text" id="first-train">
+                  </div>
+                <div class="form-group row">
+                    <label for="frequency-input" class="col-2 col-form-label">Frequency (min)</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" value="" id="frequency-input">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" id="add-train">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
