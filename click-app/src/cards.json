@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "image": "https://raw.githubusercontent.com/wjcooper91/clicky-app/master/public/images/c-3po.png"
+},
+{
+    "id": 2,
+    "image": "https://raw.githubusercontent.com/wjcooper91/clicky-app/master/public/images/chewy.png"
+},
+{
+    "id": 3,
+    "image": "https://raw.githubusercontent.com/wjcooper91/clicky-app/master/public/images/darth-maul.png"
+},
+{
+    "id": 4,
+    "image": "https://raw.githubusercontent.com/wjcooper91/clicky-app/master/public/images/darth-vader.png"
+},
+{
+    "id": 5,
+    "image": "https://raw.githubusercontent.com/wjcooper91/clicky-app/master/public/images/luke-skywalker.png"
+},
+{
+    "id": 6,
+    "image": "https://raw.githubusercontent.com/wjcooper91/clicky-app/master/public/images/mace-windu.png"
+},
+{
+    "id": 7,
+    "image": "https://raw.githubusercontent.com/wjcooper91/clicky-app/master/public/images/r2-d2.png"
+}
+]
